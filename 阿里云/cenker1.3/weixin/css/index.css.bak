@@ -1,0 +1,24 @@
+header{ border-bottom:1px solid #999999;height:40px; line-height:40px; width:100%; padding:0; background:-o-gradient(linear, 0 0, 0 100%, from(#f7f7f8), to(#e4e4e5)); background:-webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f8), to(#e4e4e5)); background:#f1f1f2; display:block;}
+header .logo{ border:none; height:36px; line-height:40px;}
+header .logo img{}
+header a span{ text-shadow:0px 1px 0px #ffffff; -webkit-text-shadow:0px 1px 1px #ffffff; display:inline-block; float:left; margin:0 5px;}
+header a.souban{ width:50px; text-align:center; float:right; color:#e6e6e6; background:#838383; display:inline-block; margin-left:1px; border-left:1px solid #838383;}
+header a.souban.on{ background:#1a7bd5; border-bottom:1px solid #0c5398; box-shadow:0px 1px 1px #2c9bee; -moz-box-shadow:0px 1px 1px #2c9bee; -webkit-box-shadow:0px 1px 1px #2c9bee;}
+header .tool_btn{ position:relative;}
+/*隐藏区域*/
+.hongye_style{width:100%;background:none repeat scroll 0 0 #1A7BD5;display:block}
+	.course{background:none repeat scroll 0 0 #1A7BD5;display:block}
+	.hongye_style ul{background:none repeat scroll 0 0 #1A7BD5;}
+	.hongye_style li{width:50%;float:left;height:28px;line-height:28px; text-align:center;background:none repeat scroll 0 0 #1A7BD5;}
+	.hongye_style li a{font-weight:bold;color:#FFF}
+
+
+
+.news_banner{background: #96FED1 repeat-x;height:45px; line-height:41px;}
+	.banner_title{background: #96FED1;display:inline-block;width:101px;padding-right:29px;color:#FFFFFF; text-shadow:0 -1px 0 #146F61;}
+		.banner_title img{padding:0 10px;}
+	.news_list{width:98%;margin:0 auto;}
+		.news_list li{height:45px; line-height:45px;border-bottom:1px solid #CCC}
+			.news_list li a{width:96%;margin:0 auto; display:block;background:url(../images/list_detail.png) no-repeat right;}
+
+

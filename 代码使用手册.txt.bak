@@ -1,0 +1,41 @@
+1、数据库导入
+利用mysql控制台新建cenker数据库
+use cenker;
+source cenker/class/cenker.sql导入
+
+2、不同平台的移植
+(1)阿里云服务器
+第一步将cenker放到web服务器根目录(www)下
+chmod -R 777 cenker
+第二步设置数据网址
+wechat/interface.php中的public static $LOCAL = "http://218.244.128.33/3";
+改成http://你网址或IP/cenker
+
+注意点:
+cenos默认是5.16
+php要5.2以上，否则不支持json,会报错。
+升级方法如下:
+rpm --import http://repo.webtatic.com/yum/RPM-GPG-KEY-webtatic-andy
+wget -P /etc/yum.repos.d/ http://repo.webtatic.com/yum/webtatic.repo
+yum --enablerepo=webtatic --exclude=php*5.3* list php
+yum --enablerepo=webtatic --exclude=php*5.3* update -y php
+
+到/etc/php.ini下设置
+display_errors = Off			//浏览器不输出错误信息
+error_reporting = E_ALL
+log_errors = On
+error_log=/var/log/php_error.txt	//输入错误信息到日志
+
+cenker/wechat/wechat_func.php中的函数若要使用到$db数据库操作句柄，则应该以参数形式传过来使用
+否则由于database open,close多次，会导致报错
+
+调试:
+可以到cenker/class/database.php中saeDatabase有个Log->setMode(0);
+改成log->setMode(1)即会输入日志,默认是关闭状态
+
+(2)sina云平台下
+第一步,要改写cenker/class/log_class.php
+
+
+
+

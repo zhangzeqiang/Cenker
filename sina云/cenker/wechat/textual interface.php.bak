@@ -1,0 +1,25 @@
+<?php
+class text_interface{
+
+	public static $interface = array(
+
+	/*activity_main
+	another
+	activity_register
+	activity_show*/
+
+
+	wechat_main => "
+【1】蹭课指南					
+【2】活动推荐		
+【3】领福利				
+【4】蹭旅游
+【5】常用电话
+【6】外卖菜单
+【7】调戏蹭客君
+
+更多福利，敬请期待！"
+		
+	);
+}
+?>

@@ -1,0 +1,10 @@
+<?php
+$picText_list[0]['Title'] = "第一条消息";
+$picText_list[0]['Description'] = "你好吗";
+$picText_list[0]['PicUrl'] = "http://szunbbs.sinaapp.com/wechat/pic/activity_show.jpg";
+$picText_list[0]['Url'] = "";	
+	
+
+echo count($picText_list);
+
+?>

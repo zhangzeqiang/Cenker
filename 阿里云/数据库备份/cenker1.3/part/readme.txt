@@ -1,0 +1,1 @@
+这里的cenker.sql是cenker1.2版本的数据库文件，其中较cenker1.3版本的完整版数据库文件少了telphone这张表，这里使用telphone.sql可以弥补

@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"> 
+<meta content="width=device-width,user-scalable=no" name="viewport"> 
+</head>
+<body>
+<div>
+		<table border="1px solid" width="100%">
+			
+			<?php 
+			require_once("../class/database.php");
+			echo "<tr><td>课程名称</td><td>课程地点</td><td>课程时间</td><td>课程介绍</td></tr>";
+$name= urldecode($_GET['lesson_name']);
+//echo "hello".$name;
+//$name="计算机";
+$name=mb_convert_encoding($name,"gbk","UTF-8");
+			$sql="select room,time,name from room_time_lesson x,lesson y where x.lesson_id=y.id and y.name like'%".$name."%'";
+			//$sql="select room,time from room_time_lesson where lesson_id in(select id from lesson where name like'%".$name."%')";
+			//$sql=sprintf($sql,$name);
+			$db = new saeDatabase();
+			$result=$db->select($sql);
+			$count=count($result)+0;
+			for($i=0;$i<$count;$i++){
+				echo "<tr>";
+                
+				$room=mb_convert_encoding($result[$i]['room'],"UTF-8","gbk");
+				$time=mb_convert_encoding($result[$i]['time'],"UTF-8","gbk");
+				$name=mb_convert_encoding($result[$i]['name'],"UTF-8","gbk");
+				$introduction="";//待导入
+
+				echo "<td width='25%'>";
+				echo $name;
+				echo "</td>";
+				echo "<td width='15%'>";
+				echo $room;
+				echo "</td>";
+				echo "<td width='15%'>";
+				echo $time;
+				echo "</td>";
+				echo "<td witdh='45%'>";
+				echo $introduction;
+				echo "</td>";
+
+				echo "</tr>";
+			}
+			?>
+		</table>
+	</div>
+</body>
+</html>

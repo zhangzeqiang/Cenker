@@ -1,0 +1,214 @@
+12:54:43 R <xml><ToUserName><![CDATA[gh_05c239cb8faf]]></ToUserName>
+<FromUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></FromUserName>
+<CreateTime>1402116882</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[10]]></Content>
+<MsgId>6022046153581337168</MsgId>
+</xml>
+12:54:43 T <xml>
+        <ToUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></ToUserName>
+        <FromUserName><![CDATA[gh_05c239cb8faf]]></FromUserName>
+        <CreateTime>1402116883</CreateTime>
+        <MsgType><![CDATA[news]]></MsgType>
+        <Content><![CDATA[]]></Content>
+        <ArticleCount>3</ArticleCount>
+        <Articles>
+            <item>
+        <Title><![CDATA[关注深大蹭客]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		    <item>
+        <Title><![CDATA[
+				【1】蹭课指南					
+				【2】活动推荐		
+				【3】领福利				
+				【4】蹭旅游
+				【5】常用电话
+				【6】外卖菜单
+				【7】调戏蹭客君
+				【8】音乐
+				【9】天气
+				【10】快递
+				【11】新版
+                更多福利，敬请期待！]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		    <item>
+        <Title><![CDATA[回复对应数字查看使用方法
+                发送0返回本菜单]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		</Articles>
+        </xml>
+12:58:28 R <xml><ToUserName><![CDATA[gh_05c239cb8faf]]></ToUserName>
+<FromUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></FromUserName>
+<CreateTime>1402117107</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[新版]]></Content>
+<MsgId>6022047119948979588</MsgId>
+</xml>
+13:27:27 R <xml><ToUserName><![CDATA[gh_05c239cb8faf]]></ToUserName>
+<FromUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></FromUserName>
+<CreateTime>1402118847</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[10]]></Content>
+<MsgId>6022054593192080663</MsgId>
+</xml>
+13:27:27 T <xml>
+        <ToUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></ToUserName>
+        <FromUserName><![CDATA[gh_05c239cb8faf]]></FromUserName>
+        <CreateTime>1402118847</CreateTime>
+        <MsgType><![CDATA[news]]></MsgType>
+        <Content><![CDATA[]]></Content>
+        <ArticleCount>3</ArticleCount>
+        <Articles>
+            <item>
+        <Title><![CDATA[关注深大蹭客]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		    <item>
+        <Title><![CDATA[
+				【1】蹭课指南					
+				【2】活动推荐		
+				【3】领福利				
+				【4】蹭旅游
+				【5】常用电话
+				【6】外卖菜单
+				【7】调戏蹭客君
+				【8】音乐
+				【9】天气
+				【10】快递
+				【11】新版
+                更多福利，敬请期待！]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		    <item>
+        <Title><![CDATA[回复对应数字查看使用方法
+                发送0返回本菜单]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		</Articles>
+        </xml>
+16:11:03 R <xml><ToUserName><![CDATA[gh_05c239cb8faf]]></ToUserName>
+<FromUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></FromUserName>
+<CreateTime>1402128663</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+16:11:03 T 
+16:11:36 R <xml><ToUserName><![CDATA[gh_05c239cb8faf]]></ToUserName>
+<FromUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></FromUserName>
+<CreateTime>1402128696</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+16:11:36 T <xml>
+        <ToUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></ToUserName>
+        <FromUserName><![CDATA[gh_05c239cb8faf]]></FromUserName>
+        <CreateTime>1402128696</CreateTime>
+        <MsgType><![CDATA[news]]></MsgType>
+        <Content><![CDATA[]]></Content>
+        <ArticleCount>3</ArticleCount>
+        <Articles>
+            <item>
+        <Title><![CDATA[关注深大蹭客]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		    <item>
+        <Title><![CDATA[
+				【1】蹭课指南					
+				【2】活动推荐		
+				【3】领福利				
+				【4】蹭旅游
+				【5】常用电话
+				【6】外卖菜单
+				【7】调戏蹭客君
+				【8】音乐
+				【9】天气
+				【10】快递
+				【11】新版
+                更多福利，敬请期待！]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		    <item>
+        <Title><![CDATA[回复对应数字查看使用方法
+                发送0返回本菜单]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		</Articles>
+        </xml>
+16:11:51 R <xml><ToUserName><![CDATA[gh_05c239cb8faf]]></ToUserName>
+<FromUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></FromUserName>
+<CreateTime>1402128711</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[11]]></Content>
+<MsgId>6022096958749519179</MsgId>
+</xml>
+16:28:17 R <xml><ToUserName><![CDATA[gh_05c239cb8faf]]></ToUserName>
+<FromUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></FromUserName>
+<CreateTime>1402129694</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[10]]></Content>
+<MsgId>6022101180702374421</MsgId>
+</xml>
+16:28:17 T <xml>
+        <ToUserName><![CDATA[otS7tjqHc9MChh-rBExWv8vANTk8]]></ToUserName>
+        <FromUserName><![CDATA[gh_05c239cb8faf]]></FromUserName>
+        <CreateTime>1402129697</CreateTime>
+        <MsgType><![CDATA[news]]></MsgType>
+        <Content><![CDATA[]]></Content>
+        <ArticleCount>3</ArticleCount>
+        <Articles>
+            <item>
+        <Title><![CDATA[关注深大蹭客]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		    <item>
+        <Title><![CDATA[
+				【1】蹭课指南					
+				【2】活动推荐		
+				【3】领福利				
+				【4】蹭旅游
+				【5】常用电话
+				【6】外卖菜单
+				【7】调戏蹭客君
+				【8】音乐
+				【9】天气
+				【10】快递
+				【11】新版
+                更多福利，敬请期待！]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		    <item>
+        <Title><![CDATA[回复对应数字查看使用方法
+                发送0返回本菜单]]></Title>
+        <Description><![CDATA[]]></Description>
+        <PicUrl><![CDATA[]]></PicUrl>
+        <Url><![CDATA[]]></Url>
+    	</item>
+		</Articles>
+        </xml>

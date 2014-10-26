@@ -1,0 +1,5 @@
+阿里云，sina云，两个文件对应两种平台，代码均修改过，可以符合相应平台的使用。
+阿里云中的代码是由sina云修改而来的，所以兼容性会更高些。
+
+sina云中修改了wechat_func.php中的一些$db = new SaeDatabase()使用多次，导致database open.close多次出错的问题
+阿里云中增加了文件日志写操作。

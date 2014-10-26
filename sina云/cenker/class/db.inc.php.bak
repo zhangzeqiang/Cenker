@@ -1,0 +1,12 @@
+<?php
+/**
+ * wechat_user type used in function define.
+ */
+$wechat_user_list = array(
+	openid => "",
+	student_no => "",
+
+	code => "",
+	other => ""
+);
+?>

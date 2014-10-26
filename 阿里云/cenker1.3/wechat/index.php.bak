@@ -1,0 +1,18 @@
+<?php
+
+    /**
+    * wechat php test
+    */
+    require_once("wechat_entry.php");
+    /* 
+     * define your token
+     */
+	$token = "john";
+    $wechatObj = new wechatCallback();
+
+    if (!isset($_GET["echostr"])) {
+        $wechatObj->responseMsg();
+    }else{
+        $wechatObj->valid($token);
+    }
+?>
